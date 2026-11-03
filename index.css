@@ -21,6 +21,7 @@ span {
   font-size: 4.5em;
   justify-content: center;
   align-items: center;
+  border-radius: 5px;
 }
 
 .mainContainer {
@@ -61,4 +62,8 @@ span {
 
 #resetBtn1, #resetBtn2 {
   width: 40%;
+}
+
+.highlight {
+  box-shadow: 0 0 3px 3px #8e3838;
 }
