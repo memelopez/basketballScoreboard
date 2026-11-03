@@ -1,0 +1,15 @@
+@font-face {
+  font-family: "CursedTimer";
+  src: url(./fonts/CursedTimerUlil-Aznm.ttf);
+}
+/* styles for basketball scoreboard */
+
+body {
+  background-color: #1B244A;
+  text-align: center;
+  color: #EEEEEE;
+}
+
+span {
+  font-family: "CursedTimer";
+}
