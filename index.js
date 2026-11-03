@@ -37,3 +37,23 @@ function add3guest() {
   guestScore += 3;
   guestScoreEl.textContent = guestScore;
 }
+
+function subtract1home() {
+  homeScore -= 1;
+  homeScoreEl.textContent = homeScore;
+}
+
+function subtract1guest() {
+  guestScore -= 1;
+  guestScoreEl.textContent = guestScore;
+}
+
+function resetHome() {
+  homeScore = 0;
+  homeScoreEl.textContent = homeScore;
+}
+
+function resetGuest() {
+  guestScore = 0;
+  guestScoreEl.textContent = guestScore;
+}
