@@ -47,3 +47,18 @@ span {
   border: 1px solid #EEEEEE;
   width: 30%;
 }
+
+.btns2 {
+  margin-top: 0.5em;
+}
+
+.btns2 button {
+  background-color: transparent;
+  color: #EEEEEE;
+  border: 1px solid #EEEEEE;
+  width: 25%;
+}
+
+#resetBtn1, #resetBtn2 {
+  width: 40%;
+}
