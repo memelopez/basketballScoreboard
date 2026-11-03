@@ -8,8 +8,42 @@ body {
   background-color: #1B244A;
   text-align: center;
   color: #EEEEEE;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 span {
   font-family: "CursedTimer";
+  display: flex;
+  width: 100%;
+  height: 90px;
+  background-color: black;
+  color: red;
+  font-size: 4.5em;
+  justify-content: center;
+  align-items: center;
+}
+
+.mainContainer {
+  width: 70%;
+  margin: 0 auto;
+}
+
+.SCcontainer {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.homeScore, .guestScore {
+  width: 30%;
+}
+
+.btnsHome, .btnsGuest {
+  margin-top: 1em;
+}
+
+.btnsHome button, .btnsGuest button {
+  background-color: transparent;
+  color: #EEEEEE;
+  border: 1px solid #EEEEEE;
+  width: 30%;
 }
