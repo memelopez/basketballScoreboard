@@ -1,0 +1,69 @@
+@font-face {
+  font-family: "CursedTimer";
+  src: url(./fonts/CursedTimerUlil-Aznm.ttf);
+}
+/* styles for basketball scoreboard */
+
+body {
+  background-color: #1B244A;
+  text-align: center;
+  color: #EEEEEE;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+span {
+  font-family: "CursedTimer";
+  display: flex;
+  width: 100%;
+  height: 90px;
+  background-color: black;
+  color: red;
+  font-size: 4.5em;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+}
+
+.mainContainer {
+  width: 70%;
+  margin: 0 auto;
+}
+
+.SCcontainer {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.homeScore, .guestScore {
+  width: 30%;
+}
+
+.btnsHome, .btnsGuest {
+  margin-top: 1em;
+}
+
+.btnsHome button, .btnsGuest button {
+  background-color: transparent;
+  color: #EEEEEE;
+  border: 1px solid #EEEEEE;
+  width: 30%;
+}
+
+.btns2 {
+  margin-top: 0.5em;
+}
+
+.btns2 button {
+  background-color: transparent;
+  color: #EEEEEE;
+  border: 1px solid #EEEEEE;
+  width: 25%;
+}
+
+#resetBtn1, #resetBtn2 {
+  width: 40%;
+}
+
+.highlight {
+  box-shadow: 0 0 3px 3px #8e3838;
+}
